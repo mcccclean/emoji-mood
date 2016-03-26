@@ -1,0 +1,23 @@
+{
+  "name": "emoodji",
+  "private": true,
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "config": "^1.19.0",
+    "markov": "0.0.7",
+    "stream-splitter": "^0.3.2",
+    "twitter": "^1.2.5",
+    "unicode": "^0.6.1",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {}
+}

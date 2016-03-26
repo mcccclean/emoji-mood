@@ -1,0 +1,11 @@
+
+mood_*
+
+node_modules
+bower_components
+public
+
+config/creds.js
+
+npm-debug.log
+data.db
