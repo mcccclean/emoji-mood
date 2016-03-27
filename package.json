@@ -13,6 +13,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "config": "^1.19.0",
+    "html-entities": "^1.2.0",
     "markov": "0.0.7",
     "stream-splitter": "^0.3.2",
     "twitter": "^1.2.5",
