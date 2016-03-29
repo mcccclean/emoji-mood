@@ -41,6 +41,8 @@ module.exports = {
         access_token_key: 'ghi789',
         access_token_secret: 'jkl0ab'
     },
+    username: 'emoji_mood', // twitter client will ignore incoming tweets
+                            // with this username    
     silent: false   // set to true to never actually tweet
                     // -- handy for debugging
 }
