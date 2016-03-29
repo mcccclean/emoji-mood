@@ -15,6 +15,18 @@ idea of how each emoji is generally used. For example, when monitoring
 
 You can see the thing in action at [@emoji_mood](http://twitter.com/emoji_mood).
 
+This bot tries to be [ethical](http://tinysubversions.com/2013/03/basic-twitter-bot-etiquette/)
+so its input filtering is pretty enthusiastic. It will completely ignore
+any tweets that include an @reply, to avoid butting in to private conversations,
+and will also discard anything that falls foul of [dariusk/wordfilter](https://github.com/dariusk/wordfilter).
+It'll also ignore any tweets containing a link, and it only monitors
+English tweets.
+
+This means sometimes it'll be filtering out the majority of the tweets
+using an emoji, and when its monitoring a less-used emoji this means it'll
+only have a small handful of inputs. To avoid just recreating tweets verbatim,
+it'll just stay silent until it's got at least 10 input tweets.
+
 ## Actually using it
 
 To run it, you'll need to set up the config object in `config/default.js`
