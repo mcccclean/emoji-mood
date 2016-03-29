@@ -1,6 +1,6 @@
 # emoji mood
 
-> My current mood is :robot: ROBOT FACE :robot:
+> My current mood is :blush: SMILING FACE WITH SMILING EYES :blush:
 
 Emoji mood is a twitter bot that picks an emoji at random and then
 watches twitter for uses of that emoji. It uses those tweets to 
